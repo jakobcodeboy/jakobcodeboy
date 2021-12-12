@@ -1,0 +1,141 @@
+@font-face{
+  font-family: "Edu Ginto Nord Medium";
+  src: url("EduGintoNord-Medium.otf") format("opentype");
+}
+
+.logo{
+  width: 100px;
+  padding: 10px;
+}
+body {
+  background-image: url("background.png");
+}
+
+li, a, button{
+  font-family: Edu Ginto Nord Medium;;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navi_links {
+  list-style: none;
+}
+
+.navi_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navi_links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.navi_links li a:hover {
+  color: hotpink;
+}
+
+button{
+  padding: 10px 25px;
+  background-color: rgba(0, 0, 0, 1.0);
+  color: hotpink;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color: hotpink;
+  color: black;
+}
+
+
+table{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-family: Edu Ginto Nord Medium;
+  
+  padding: 10px;
+}
+
+
+th {
+  text-align: left;
+}
+
+.right{
+  text-align: right;
+}
+
+
+tr {
+  border-bottom: 1px solid #ddd;
+  transition: all 0.3s ease 0s;
+}
+
+tr :hover {
+  background-color: black;
+  color: hotpink;
+}
+
+
+
+/*.nav-links, .navnav-links2{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-links, .nav-links2{
+  flex: 1;
+}*/
+
+.cursor{
+  position: absolute;
+  transform: scale(0);
+  pointer-events: none;
+  opacity: 0;
+  }
+
+.cursor2{
+  position: absolute;
+  transform: scale(0);
+  pointer-events: none;
+  opacity: 0;
+  }
+
+  .cursor3{
+  position: absolute;
+  transform: scale(0);
+  pointer-events: none;
+  opacity: 0;
+  }
+
+.cursor4{
+  position: absolute;
+  transform: scale(0);
+  pointer-events: none;
+  opacity: 0;
+  }
+.cursor5{
+  position: absolute;
+  transform: scale(0);
+  pointer-events: none;
+  opacity: 0;
+  }
+
+.link-grow{
+  transform: scale(1);
+  opacity: 0.95;
+}
+
